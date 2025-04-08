@@ -59,9 +59,7 @@ def check_for_new_seats():
         print("⚠️ Error checking seats:", e)
 
 # Main loop
-# if __name__ == "__main__":
-#     while True:
-#         check_for_new_seats()
-#         time.sleep(300)  # Every 10 minutes
 if __name__ == "__main__":
-    send_notification("Test Centre", "2025-04-20", 3)
+    while True:
+        check_for_new_seats()
+        time.sleep(300)  # Every 10 minutes
